@@ -44,3 +44,17 @@ body {
   background: #00000003;
   border-radius: 0px 0px 30px 30px;
 }
+.rotate-two {
+  transform: rotate(3.854deg);
+  background: #c5ff41;
+}
+.rotate-two button {
+  background: #000;
+  color: #fff;
+}
+.rotate-two p {
+  color: #000;
+}
+.rotate-two .link {
+  color: #000;
+}

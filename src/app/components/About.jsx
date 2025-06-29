@@ -46,10 +46,10 @@ export default function About() {
             PREVIOUSLY <br /> WORKED ON
           </h3>
           <div className="relative  w-[1068px] h-[217px]">
-            <button className="border-2 border-[#000] rounded-[45px] bg-[#FFF] inline-flex py-[37px] px-[70px] cursor-grab absolute left-0 bottom-0">
+            <button className="border-2 border-[#000] rounded-[45px] bg-[#FFF] inline-flex py-[37px] px-[70px] cursor-grab absolute left-0 -bottom-[10px]">
               <Image src={Img1} width={135} height={15} alt="Img" />
             </button>
-            <button className="border-2 border-[#000] rounded-[45px] bg-[#FFF] inline-flex py-[24px] px-[70px] cursor-grab absolute left-[314px] bottom-3 rotate-[-9.343deg]">
+            <button className="border-2 border-[#000] rounded-[45px] bg-[#FFF] inline-flex py-[24px] px-[70px] cursor-grab absolute left-[314px] bottom-1 rotate-[-9.343deg]">
               <Image
                 src={Img2}
                 width={151}
@@ -58,10 +58,10 @@ export default function About() {
                 className="rotate-[9.34deg]"
               />
             </button>
-            <button className="border-2 border-[#000] rounded-[45px] bg-[#FFF] inline-flex py-[37px] px-[70px] cursor-grab absolute right-[165px] bottom-0">
+            <button className="border-2 border-[#000] rounded-[45px] bg-[#FFF] inline-flex py-[37px] px-[70px] cursor-grab absolute right-[165px] -bottom-[10px]">
               <Image src={Img3} width={151} height={24} alt="Img" />
             </button>
-            <button className="border-2 border-[#000] rounded-[45px] bg-[#FFF] inline-flex  px-[70px] py-[15px] cursor-grab absolute right-0 top-[38px] rotate-[16.97deg]">
+            <button className="border-2 border-[#000] rounded-[45px] bg-[#FFF] inline-flex  px-[70px] py-[15px] cursor-grab absolute right-0 top-[54px] rotate-[16.97deg]">
               <Image
                 src={Img4}
                 width={151}
@@ -70,7 +70,7 @@ export default function About() {
                 className="rotate-[-16.97deg]"
               />
             </button>
-            <button className="border-2 border-[#000] rounded-[45px] inline-flex  px-[70px] py-[18px] cursor-grab bg-[#000] absolute top-6 left-[69px] rotate-[13.97deg]">
+            <button className="border-2 border-[#000] rounded-[45px] inline-flex  px-[70px] py-[18px] cursor-grab bg-[#000] absolute top-10 left-[68px] rotate-[11.97deg]">
               <Image
                 src={Img5}
                 width={151}
@@ -79,7 +79,7 @@ export default function About() {
                 className="rotate-[-11.97deg]"
               />
             </button>
-            <button className="border-2 border-[#000] absolute right-[291px] top-1 rounded-[45px] inline-flex  px-[70px] py-[28px] cursor-grab bg-[#FFF]">
+            <button className="border-2 border-[#000] absolute right-[291px] top-4 rounded-[45px] inline-flex  px-[70px] py-[28px] cursor-grab bg-[#FFF]">
               <Image src={Img6} width={151} height={24} alt="Img" />
             </button>
           </div>

@@ -2,11 +2,11 @@ import Image from "next/image";
 import DownArrow from "../../../public/assets/Frame.svg";
 import SliderBtn from "../../../public/assets/Group 15.svg";
 import Img from "../../../public/assets/Group 17.svg";
-import Cart from "./Cart";
+import Card from "./Card";
 
 export default function Skills() {
   return (
-    <div className="flex flex-col items-center justify-center w-full border-2 border-red-500">
+    <div className="flex flex-col items-center justify-center w-full ">
       <div className="bg-[#000000] rounded-[40px] w-[1410px] px-[65px] pt-[70px]">
         <div className="flex">
           <button className="border-2 border-[#FFF] rounded-[22px] w-11 h-11 flex items-center justify-center">
@@ -34,14 +34,14 @@ export default function Skills() {
         </div>
 
         <div className="flex gap-[10px] mt-10">
-          <Cart
+          <Card
             img={Img}
             title={"HTML & CSS"}
             para={
               "Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis"
             }
           />
-          <Cart
+          <Card
             img={Img}
             title={"Javascript"}
             para={
@@ -49,7 +49,7 @@ export default function Skills() {
             }
             className="rotate"
           />
-          <Cart
+          <Card
             img={Img}
             title={"Webflow"}
             para={

@@ -7,7 +7,7 @@ import HeroBanner from "../../../public/assets/hero-banner.png";
 
 export default function Hero() {
   return (
-    <div className="relative h-[888px] pb-16 border-2 border-black">
+    <div className="relative h-[888px] pb-16 ">
       <div className="flex flex-col gap-[50px] justify-center h-full relative z-40 ml-[50px]">
         <h1 className="text-[78px] font-bold leading-[126px]">
           Trusted{" "}
