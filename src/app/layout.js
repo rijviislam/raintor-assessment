@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Head from "next/head";
 import "./globals.css";
+import Navbar from "./share/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,9 +21,22 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        {/* Sporting Grotesque CDN */}
+        <link
+          href="https://fonts.cdnfonts.com/css/sporting-grotesque"
+          rel="stylesheet"
+        />
+        {/* Bw Gradual DEMO CDN */}
+        <link
+          href="https://fonts.cdnfonts.com/css/bw-gradual"
+          rel="stylesheet"
+        />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Navbar/>
         {children}
       </body>
     </html>
