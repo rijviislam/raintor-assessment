@@ -1,13 +1,12 @@
 import Image from "next/image";
 import AboutImg from "../../../public/assets/about-img.svg";
-import DownArrow from "../../../public/assets/down-arrow-2.svg";
 import Img3 from "../../../public/assets/v1.svg";
 import Img5 from "../../../public/assets/v2.svg";
 import Img6 from "../../../public/assets/v3.svg";
 import Img1 from "../../../public/assets/Vector (1) 2.svg";
 import Img2 from "../../../public/assets/Vector (2) 2.svg";
 import Img4 from "../../../public/assets/Vector (4).svg";
-
+import Cta from "../share/Cta";
 export default function About() {
   return (
     <div className="h-[828px] w-full relative ">
@@ -19,12 +18,7 @@ export default function About() {
 
       <div className="flex flex-col items-center relative top-[130px] z-50 ">
         <div className="flex items-end justify-end w-full relative right-[192px] z-50  mb-[34px]">
-          <button className="border-2 border-[#000] rounded-[22px] w-11 h-11 flex items-center justify-center">
-            <Image src={DownArrow} width={12} height={12} alt="Arrow" />
-          </button>
-          <button className="border-2 border-[#000] rounded-[40px] px-5 py-[10px] text-[#000] text-[16px] font-normal leading-[20px]">
-            About
-          </button>
+          <Cta btnTitle={"About"} className="border-black text-black " />
         </div>
         <h2 className="text-[78px] font-bold leading-[126px] ">
           I’ve been{" "}

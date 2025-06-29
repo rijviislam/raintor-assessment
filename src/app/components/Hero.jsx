@@ -1,6 +1,5 @@
 import Image from "next/image";
 import SocialLogo2 from "../../../public/assets/Vector (1).svg";
-// import SocialLogo3 from "../../../public/assets/Vector (2).svg";
 import SocialLogo1 from "../../../public/assets/Vector.svg";
 import CallIcon from "../../../public/assets/call.svg";
 import HeroBanner from "../../../public/assets/hero-banner.png";

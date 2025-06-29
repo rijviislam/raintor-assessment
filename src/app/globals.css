@@ -58,3 +58,6 @@ body {
 .rotate-two .link {
   color: #000;
 }
+textarea {
+  resize: none;
+}

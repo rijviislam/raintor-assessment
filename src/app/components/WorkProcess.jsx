@@ -1,8 +1,7 @@
-import Image from "next/image";
-import DownArrow from "../../../public/assets/Frame.svg";
 import ArrowBlack from "../../../public/assets/right-arrow-black.svg";
 import Arrow from "../../../public/assets/right-arrow.svg";
-import WorkCard from "./WorkCard";
+import Cta from "../share/Cta";
+import WorkCard from "../share/WorkCard";
 
 export default function WorkProcess() {
   return (
@@ -12,14 +11,7 @@ export default function WorkProcess() {
    w-[1410px] px-[65px] pt-[90px]"
       >
         <div className="flex gap-[97px] items-center">
-          <div className="inline-flex">
-            <button className="border-2 border-[#FFF] rounded-[22px] w-11 h-11 inline-flex items-center justify-center">
-              <Image src={DownArrow} width={12} height={12} alt="Arrow" />
-            </button>
-            <button className="border-2 border-[#FFF] rounded-[40px] px-5 py-[10px] text-[#FFF] text-[16px] font-normal leading-[20px] inline-flex">
-              Why Choose me
-            </button>
-          </div>
+          <Cta btnTitle={" Why Choose me"} />
           <h2 className="text-[#FFFFFF] text-[58px] font-bold leading-[86px]">
             My Work Process
           </h2>

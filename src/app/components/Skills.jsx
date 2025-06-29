@@ -1,21 +1,14 @@
 import Image from "next/image";
-import DownArrow from "../../../public/assets/Frame.svg";
 import SliderBtn from "../../../public/assets/Group 15.svg";
 import Img from "../../../public/assets/Group 17.svg";
-import Card from "./Card";
+import Card from "../share/Card";
+import Cta from "../share/Cta";
 
 export default function Skills() {
   return (
     <div className="flex flex-col items-center justify-center w-full ">
       <div className="bg-[#000000] rounded-[40px] w-[1410px] px-[65px] pt-[70px]">
-        <div className="flex">
-          <button className="border-2 border-[#FFF] rounded-[22px] w-11 h-11 flex items-center justify-center">
-            <Image src={DownArrow} width={12} height={12} alt="Arrow" />
-          </button>
-          <button className="border-2 border-[#FFF] rounded-[40px] px-5 py-[10px] text-[#FFF] text-[16px] font-normal leading-[20px]">
-            Why Choose me
-          </button>
-        </div>
+        <Cta btnTitle={"Why Choose me"} />
 
         <div className="flex gap-[254px] justify-between mt-10">
           <h2 className="text-[#FFFFFF] text-[58px] font-bold leading-[86px]">
