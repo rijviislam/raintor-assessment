@@ -6,7 +6,10 @@ import HeroBanner from "../../../public/assets/hero-banner.png";
 
 export default function Hero() {
   return (
-    <div className="relative h-[888px] pb-16 ">
+    <section
+      id="hero"
+      className="relative h-[888px] pb-16 max-w-[1440px] mx-auto"
+    >
       <div className="flex flex-col gap-[50px] justify-center h-full relative z-40 ml-[50px]">
         <h1 className="text-[78px] font-bold leading-[126px]">
           Trusted{" "}
@@ -72,6 +75,6 @@ export default function Hero() {
         alt="Banner"
         className="w-full h-full absolute top-0 z-10 object-contain"
       />
-    </div>
+    </section>
   );
 }

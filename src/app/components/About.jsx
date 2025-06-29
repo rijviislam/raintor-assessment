@@ -9,7 +9,7 @@ import Img4 from "../../../public/assets/Vector (4).svg";
 import Cta from "../share/Cta";
 export default function About() {
   return (
-    <div className="h-[828px] w-full relative ">
+    <section id="about" className="h-[828px] max-w-[1440px] mx-auto relative ">
       <Image
         src={AboutImg}
         alt="About Img"
@@ -79,6 +79,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

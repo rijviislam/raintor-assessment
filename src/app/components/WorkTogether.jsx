@@ -8,7 +8,10 @@ import WorkBanner from "../../../public/assets/work-banner.svg";
 import Cta from "../share/Cta";
 export default function WorkTogether() {
   return (
-    <div className="pt-[51px] pb-[116px] relative">
+    <section
+      id="workTogether"
+      className="pt-[51px] pb-[116px] relative max-w-[1440px] mx-auto"
+    >
       <div className="flex justify-between gap-10 relative z-50 mx-[50px]">
         <div>
           <Cta btnTitle={"Contact"} className="border-black text-black " />
@@ -40,17 +43,17 @@ export default function WorkTogether() {
           <input
             type="text"
             placeholder="Enter your name"
-            className="outline-none text-[#FFFFFF] text-[18px] font-normal leading-[34px] border-b border-[#C5FF41] pb-3 focus:border-[#C5FF41]"
+            className="outline-none text-[#FFFFFF] text-[18px] font-normal leading-[34px] border-b border-[#C5FF41] pb-3 focus:border-[#C5FF41] "
           />
           <input
             type="email"
             placeholder="Your email address"
-            className="outline-none text-[18px] text-[#FFFFFF] font-normal leading-[34px] border-b border-[#FFFFFF] pb-3 focus:border-[#C5FF41]"
+            className="outline-none text-[18px] text-[#FFFFFF] font-normal leading-[34px] border-b border-[#FFFFFF] pb-3 focus:border-[#C5FF41] opacity-[0.5]"
           />
           <input
             type="text"
             placeholder="Describe your project"
-            className="outline-none text-[18px] text-[#FFFFFF] font-normal leading-[34px] border-b border-[#FFFFFF] pb-3 focus:border-[#C5FF41]"
+            className="outline-none text-[18px] text-[#FFFFFF] font-normal leading-[34px] border-b border-[#FFFFFF] pb-3 focus:border-[#C5FF41] opacity-[0.5]"
           />
 
           <div>
@@ -82,6 +85,6 @@ export default function WorkTogether() {
         alt="Work Banner"
         className="w-full h-full absolute object-cover bottom-0 z-0"
       />
-    </div>
+    </section>
   );
 }

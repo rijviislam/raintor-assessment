@@ -6,7 +6,10 @@ import Cta from "../share/Cta";
 
 export default function Skills() {
   return (
-    <div className="flex flex-col items-center justify-center w-full ">
+    <section
+      id="skills"
+      className="flex flex-col items-center justify-center w-full "
+    >
       <div className="bg-[#000000] rounded-[40px] w-[1410px] px-[65px] pt-[70px]">
         <Cta btnTitle={"Why Choose me"} />
 
@@ -51,6 +54,6 @@ export default function Skills() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

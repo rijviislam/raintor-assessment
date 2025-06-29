@@ -5,7 +5,7 @@ import WorkCard from "../share/WorkCard";
 
 export default function WorkProcess() {
   return (
-    <div className="flex justify-center ">
+    <section id="workProcess" className="flex justify-center ">
       <div
         className="relative bg-[#141414] rounded-[40px] h-[866px]
    w-[1410px] px-[65px] pt-[90px]"
@@ -44,6 +44,6 @@ export default function WorkProcess() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
