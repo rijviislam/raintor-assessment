@@ -7,16 +7,16 @@ export default function WorkProcess() {
   return (
     <section id="workProcess" className="flex justify-center ">
       <div
-        className="relative bg-[#141414] rounded-[40px] h-[866px]
-   w-[1410px] px-[65px] pt-[90px]"
+        className="relative bg-[#141414] rounded-[40px] min-h-[866px]
+   max-w-[1410px] px-5 lg:px-[65px] pt-[90px]"
       >
-        <div className="flex gap-[97px] items-center">
+        <div className="flex flex-col md:flex-row gap-[97px] items-center">
           <Cta btnTitle={" Why Choose me"} />
-          <h2 className="text-[#FFFFFF] text-[58px] font-bold leading-[86px]">
+          <h2 className="text-[#FFFFFF] text-[58px] text-center font-bold leading-[86px]">
             My Work Process
           </h2>
         </div>
-        <div className="grid grid-cols-2 gap-[10px] mt-[50px]">
+        <div className="flex flex-wrap lg:items-start lg:justify-start items-center justify-center gap-[10px] mt-[50px]">
           <WorkCard
             button="Discovery"
             link="Read More"

@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer id="footer" className=" flex items-center justify-center">
-      <div className="max-h-[767px] max-w-[1440px] flex justify-between pt-[90px] pb-[70px] pr-[120px] pl-[65px]  bg-[#000000] rounded-[52px] gap-[338px]">
-        <div className="flex flex-col justify-between ">
+      <div className="min-h-[767px] max-w-[1440px] xl:w-[1440px] flex justify-between pt-[90px] pb-[70px] lg:pr-[120px] lg:pl-[65px] px-5  bg-[#000000] rounded-[52px] xxl:gap-[338px] gap-10 md:flex-row flex-col">
+        <div className="flex flex-row md:flex-col justify-between gap-10 ">
           <h2 className="text-[#C5FF41] font-extrabold text-[34px] uppercase leading-[34px]">
             devlop.me
           </h2>
@@ -13,10 +13,10 @@ export default function Footer() {
           </h4>
         </div>
         <div>
-          <h3 className="text-[#FFFFFF] font-bold text-[64px] leading-[64px]">
+          <h3 className="text-[#FFFFFF] font-bold text-[44px] lg:text-[64px] lg:leading-[64px]">
             As You Can
           </h3>
-          <div className="grid grid-cols-3 gap-[85px] mt-[138px]">
+          <div className="flex flex-col md:flex-row gap-10 lg:gap-32 mt-[138px]">
             <div className="flex flex-col gap-[53px]">
               <div className="flex flex-col gap-5">
                 <h5 className="text-[#757575] text-[16px] font-bold leading-[24px]">

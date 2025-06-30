@@ -11,7 +11,8 @@ export default function Home() {
       <Skills />
       <About/>
       <WorkProcess/>
-      <WorkTogether/>
+        <WorkTogether/>
+    
     </>
   );
 }

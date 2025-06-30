@@ -10,18 +10,18 @@ export default function Hero() {
       id="hero"
       className="relative h-[888px] pb-16 max-w-[1440px] mx-auto"
     >
-      <div className="flex flex-col gap-[50px] justify-center h-full relative z-40 ml-[50px]">
-        <h1 className="text-[78px] font-bold leading-[126px]">
+      <div className="flex flex-col gap-[50px]  justify-center h-full relative z-40 md:ml-[50px] mx-5">
+        <h1 className="lg:text-[78px] text-[58px] font-bold md:leading-[126px] font-grotesque ">
           Trusted{" "}
-          <span className="bg-[#000] text-white h-[105px] w-[438px] rounded-[11px]">
+          <span className="bg-[#000] text-white h-[105px] w-[438px] rounded-[11px] px-[10px]">
             Partner
           </span>{" "}
           for <br /> Your Website{" "}
-          <span className="bg-[#000] text-white h-[105px] w-[438px] rounded-[11px]">
+          <span className="bg-[#000] text-white h-[105px] w-[438px] rounded-[11px] px-[10px]">
             Develop.
           </span>
         </h1>
-        <div className="flex gap-[253px]">
+        <div className="flex flex-col md:flex-row gap-[50px] lg:gap-[253px]">
           <div className="[writing-mode:sideways-lr] flex flex-col gap-[22px]">
             <p className="text-[#000000] text-[18px] font-normal leading-[33px]">
               @williamrey
@@ -56,7 +56,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="flex gap-[42px] flex-col items-start">
-            <p className="text-[#000000] text-[18px]">
+            <p className="text-[#000000] md:text-[18px]">
               Building the worlds best marketing websites for over a decade.{" "}
               <br />
               Your trusted partner for strategy, design, and dev.

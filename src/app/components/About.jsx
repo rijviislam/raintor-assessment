@@ -1,32 +1,44 @@
 import Image from "next/image";
 import AboutImg from "../../../public/assets/about-img.svg";
+import DownArrow from "../../../public/assets/down-arrow-2.svg";
 import Img3 from "../../../public/assets/v1.svg";
 import Img5 from "../../../public/assets/v2.svg";
 import Img6 from "../../../public/assets/v3.svg";
 import Img1 from "../../../public/assets/Vector (1) 2.svg";
 import Img2 from "../../../public/assets/Vector (2) 2.svg";
 import Img4 from "../../../public/assets/Vector (4).svg";
-import Cta from "../share/Cta";
 export default function About() {
   return (
-    <section id="about" className="h-[828px] max-w-[1440px] mx-auto relative ">
+    <section
+      id="about"
+      className="h-[828px] max-w-[1440px] mx-auto relative overflow-hidden px-5 lg:px-0"
+    >
       <Image
         src={AboutImg}
         alt="About Img"
-        className="h-[673px] absolute w-full object-cover top-0  left-0 z-0"
+        className="h-[673px] absolute w-full object-cover top-0  left-0 z-0 "
       />
 
       <div className="flex flex-col items-center relative top-[130px] z-50 ">
         <div className="flex items-end justify-end w-full relative right-[192px] z-50  mb-[34px]">
-          <Cta btnTitle={"About"} className="border-black text-black " />
+          <div className="flex">
+            <button className="border-2 border-[#000] rounded-[22px] w-11 h-11 flex items-center justify-center">
+              <Image src={DownArrow} width={12} height={12} alt="Arrow" />
+            </button>
+            <button
+              className={`border-2 border-[#000] rounded-[40px] px-5 py-[10px] text-[#000] text-[16px] font-normal leading-[20px]`}
+            >
+              About
+            </button>
+          </div>
         </div>
-        <h2 className="text-[78px] font-bold leading-[126px] ">
+        <h2 className="lg:text-[78px] text-[58px] font-bold lg:leading-[126px] ">
           I’ve been{" "}
-          <span className="bg-[#000] text-white h-[105px] w-[572px] rounded-[11px]">
+          <span className="bg-[#000] text-white h-[105px] w-[572px] rounded-[11px] px-2">
             Developing
           </span>{" "}
           <br /> Websites since{" "}
-          <span className="bg-[#000] text-white h-[105px] w-[281px] rounded-[11px]">
+          <span className="bg-[#000] text-white h-[105px] w-[281px] rounded-[11px] px-2">
             2013
           </span>
         </h2>
@@ -35,11 +47,11 @@ export default function About() {
           where we get to know each other and recommend the best course of
           action.
         </p>
-        <div className=" w-full pl-[105px] mt-[70px] gap-[33px] flex justify-end">
-          <h3 className="text-[#000] text-[26px] font-bold">
+        <div className=" w-full md:pl-[105px] mt-[70px] gap-[33px] flex lg:justify-end flex-col items-center lg:flex-row ">
+          <h3 className="text-[#000] text-[26px] text-start font-bold">
             PREVIOUSLY <br /> WORKED ON
           </h3>
-          <div className="relative  w-[1068px] h-[217px]">
+          <div className="relative  lg:w-[1068px] h-[217px] md:block hidden">
             <button className="border-2 border-[#000] rounded-[45px] bg-[#FFF] inline-flex py-[37px] px-[70px] cursor-grab absolute left-0 -bottom-[10px]">
               <Image src={Img1} width={135} height={15} alt="Img" />
             </button>

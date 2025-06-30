@@ -12,11 +12,11 @@ export default function WorkTogether() {
       id="workTogether"
       className="pt-[51px] pb-[116px] relative max-w-[1440px] mx-auto"
     >
-      <div className="flex justify-between gap-10 relative z-50 mx-[50px]">
+      <div className="flex flex-col md:flex-row items-center  justify-between gap-10 relative z-50 mx-[50px]">
         <div>
           <Cta btnTitle={"Contact"} className="border-black text-black " />
           <div>
-            <h2 className="text-[78px] font-bold leading-[126px] ">
+            <h2 className="lg:text-[78px] text-[58px] font-bold lg:leading-[126px] ">
               Interested in <br />
               <span className="bg-[#000000] text-[#FFF] rounded-[11px] h-[105px] w-[269px]">
                 work
@@ -38,7 +38,7 @@ export default function WorkTogether() {
         </div>
         <form
           action=""
-          className="w-[529px] h-[506px] flex flex-col rounded-[30px] bg-[#000] px-[35px] pt-[45px] pb-10 gap-6"
+          className="md:max-w-[529px] lg:w-[529px] h-[506px] flex flex-col rounded-[30px] bg-[#000] px-[35px] pt-[45px] pb-10 gap-6"
         >
           <input
             type="text"

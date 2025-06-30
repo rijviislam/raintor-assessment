@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function WorkCard({ button, link, para, className = "", img }) {
   return (
     <div
-      className={`className bg-[#000000] rounded-[30px] p-[30px] flex flex-col gap-[45px] ${className} h-[280px]`}
+      className={`className bg-[#000000] rounded-[30px] p-[30px] flex flex-col gap-[45px] ${className} min-h-[280px] max-w-[635px]`}
     >
       <div className="flex justify-between items-center">
         {" "}

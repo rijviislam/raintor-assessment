@@ -10,26 +10,26 @@ export default function Skills() {
       id="skills"
       className="flex flex-col items-center justify-center w-full "
     >
-      <div className="bg-[#000000] rounded-[40px] w-[1410px] px-[65px] pt-[70px]">
+      <div className="bg-[#000000] rounded-[40px] max-w-[1410px] px-8 md:px-[65px] pt-[70px]">
         <Cta btnTitle={"Why Choose me"} />
 
-        <div className="flex gap-[254px] justify-between mt-10">
-          <h2 className="text-[#FFFFFF] text-[58px] font-bold leading-[86px]">
+        <div className="flex md:flex-row flex-col items-center justify-center md:gap-[254px] gap-10 md:justify-between mt-10">
+          <h2 className="text-[#FFFFFF] text-[58px] text-center md:text-start font-bold leading-[86px]">
             My Extensive <br /> List of Skills
           </h2>
-          <div className="flex flex-col items-end">
-            <p className="text-[#FFFFFF] font-normal text-[18px] leading-[34px] text-end">
+          <div className="flex flex-col gap-5 items-center md:items-end">
+            <p className="text-[#FFFFFF] font-normal text-[18px] leading-[34px] text-center md:text-end">
               Building the worlds best marketing Your <br /> trusted partner for
               strategy, design, and dev.
             </p>
-            <span className="w-[491px] mt-[21px] mb-[35px] opacity-[0.4px] h-[1px] bg-[#FFF]"></span>
+            <span className="w-[491px] xl:block hidden mt-[21px] mb-[35px] opacity-[0.4px] h-[1px] bg-[#FFF]"></span>
             <button className="cursor-pointer">
               <Image src={SliderBtn} width={140} height={60} alt="Slider Btn" />
             </button>
           </div>
         </div>
 
-        <div className="flex gap-[10px] mt-10">
+        <div className="flex xl:flex-nowrap items-center justify-center flex-wrap gap-[10px] mt-10">
           <Card
             img={Img}
             title={"HTML & CSS"}
