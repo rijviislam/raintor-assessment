@@ -23,7 +23,7 @@ export default function Navbar() {
               <Link href={"#footer"}>Blog</Link>
             </li>
           </ul>
-          <button className="flex gap-3 border border-[#000000] items-center pr-[12px] rounded-[39px] cursor-pointer text-[16px] font-normal leading-[18px] text-[#000000]">
+          <button className="flex gap-3 border border-[#000000] items-center pr-[12px] rounded-[39px] cursor-pointer text-[16px] font-normal leading-[18px] text-[#000000] btn">
             <Image
               width={38}
               height={38}

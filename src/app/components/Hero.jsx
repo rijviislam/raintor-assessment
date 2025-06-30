@@ -47,7 +47,7 @@ export default function Hero() {
                   alt="Social Logo"
                 />
               </button>
-              <button className="cursor-pointer">
+              <button className="cursor-pointer ">
                 <Image
                   src={SocialLogo3}
                   width={27}
@@ -63,7 +63,7 @@ export default function Hero() {
               <br />
               Your trusted partner for strategy, design, and dev.
             </p>
-            <button className="flex gap-3 border border-black items-center pr-[21px] rounded-[39px] cursor-pointer">
+            <button className="flex gap-3 border border-black items-center pr-[21px] rounded-[39px] cursor-pointer btn">
               <div className="w-[50px] h-[50px] border border-black flex items-center justify-center rounded-full my-3">
                 <Image width={20} height={20} src={CallIcon} alt="Call icon" />{" "}
               </div>

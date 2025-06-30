@@ -8,7 +8,7 @@ export default function WorkCard({ button, link, para, className = "", img }) {
     >
       <div className="flex justify-between items-center">
         {" "}
-        <button className="bg-[#C5FFEE] px-[37px] pt-[5px] pb-[1px] rounded-[20px]">
+        <button className="bg-[#C5FFEE] px-[37px] pt-[5px] pb-[1px] rounded-[20px] cursor-pointer">
           {button}
         </button>
         <Link

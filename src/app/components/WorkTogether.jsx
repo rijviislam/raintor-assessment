@@ -28,7 +28,7 @@ export default function WorkTogether() {
               <br />
               call where we get to know each other
             </p>
-            <button className="flex gap-3 border border-black items-center pr-[21px] rounded-[39px] cursor-pointer">
+            <button className="flex gap-3 border border-black items-center pr-[21px] rounded-[39px] cursor-pointer btn">
               <div className="w-[50px] h-[50px] border border-black flex items-center justify-center rounded-full my-3">
                 <Image width={20} height={20} src={CallIcon} alt="Call icon" />{" "}
               </div>
@@ -58,14 +58,14 @@ export default function WorkTogether() {
 
           <div>
             <div className="flex text-white items-center gap-[14px] mt-[46px] mb-[69px]">
-              <button className="flex gap-3 border border-[#FFF] items-center pr-[29px] rounded-[39px] cursor-pointer text-[#FFF] font-normal">
+              <button className="flex gap-3 border border-[#FFF] items-center pr-[29px] rounded-[39px] cursor-pointer text-[#FFF] font-normal btn hover:text-[#000]">
                 <div className="w-[36px] h-[36px] border border-[#FFF] flex items-center justify-center rounded-full my-[9px]">
                   <Image width={13} height={13} src={Msg} alt="Msg icon" />{" "}
                 </div>
                 Send
               </button>
               or
-              <button className="flex gap-3 border border-[#FFF] items-center pr-[29px] rounded-[39px] cursor-pointer text-[#FFF] font-normal">
+              <button className="flex gap-3 border border-[#FFF] items-center pr-[29px] rounded-[39px] cursor-pointer text-[#FFF] font-normal btn hover:text-[#000]">
                 <div className="w-[36px] h-[36px] border border-[#FFF] flex items-center justify-center rounded-full my-[9px]">
                   <Image width={13} height={13} src={Mailg} alt="Msg icon" />{" "}
                 </div>
