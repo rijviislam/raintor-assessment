@@ -8,10 +8,10 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative h-[888px] pb-16 max-w-[1440px] mx-auto"
+      className="relative min-h-[888px] pb-16 max-w-[1440px] mx-auto"
     >
       <div className="flex flex-col gap-[50px]  justify-center h-full relative z-40 md:ml-[50px] mx-5">
-        <h1 className="lg:text-[78px] text-[58px] font-bold md:leading-[126px] font-grotesque ">
+        <h1 className="lg:text-[78px] text-[48px] font-bold md:leading-[126px] font-grotesque ">
           Trusted{" "}
           <span className="bg-[#000] text-white h-[105px] w-[438px] rounded-[11px] px-[10px]">
             Partner

@@ -3,13 +3,13 @@ import Link from "next/link";
 import NavIcon from "../../../public/assets/nav-icon.svg";
 export default function Navbar() {
   return (
-    <nav className="">
-      <div className="flex px-[50px] justify-between items-center py-7 absolute w-full z-50 nav-bg ">
+    <nav className="flex  justify-center w-full h-[114px]">
+      <div className="flex px-5 md:px-[50px] justify-between items-center py-7 absolute xxl:max-w-[1440px] w-full xxl:gap-[540px] z-50 nav-bg ">
         <h1 className="uppercase text-[#000] font-extrabold text-[34px]">
           devlop.me
         </h1>
-        <div className="flex items-center gap-[67px]">
-          <ul className="flex gap-9 text-[#000000] font-normal text-[16px] leading-[18x]">
+        <div className="hidden md:flex items-center gap-5 lg:gap-[67px]">
+          <ul className="flex gap-3 lg:gap-9 text-[#000000] font-normal text-[16px] leading-[18x]">
             <li>
               <Link href={"#hero"}>Home</Link>
             </li>

@@ -1,6 +1,7 @@
 import Context from "./components/Context";
 import "./globals.css";
 import Footer from "./share/Footer";
+import Navbar from "./share/Navbar";
 
 
 export const metadata = {
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
         className={` antialiased`}
       >
         <Context>
+          <Navbar/>
           {children}
           <Footer/>
         </Context>
