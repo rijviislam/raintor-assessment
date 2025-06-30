@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="flex flex-col items-center justify-center w-full "
+      className="flex flex-col items-center justify-center w-full lg:top-0 top-16 relative z-50"
     >
       <div className="bg-[#000000] rounded-[40px] max-w-[1410px] px-8 md:px-[65px] pt-[70px]">
         <Cta btnTitle={"Why Choose me"} />

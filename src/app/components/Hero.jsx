@@ -1,6 +1,8 @@
 import Image from "next/image";
 import SocialLogo2 from "../../../public/assets/Vector (1).svg";
 import SocialLogo1 from "../../../public/assets/Vector.svg";
+import SocialLogo3 from "../../../public/assets/twt.svg";
+
 import CallIcon from "../../../public/assets/call.svg";
 import HeroBanner from "../../../public/assets/hero-banner.png";
 
@@ -8,7 +10,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-[888px] pb-16 max-w-[1440px] mx-auto"
+      className="relative  md:min-h-[774px] flex items-center top-10 max-w-[1440px] mx-auto"
     >
       <div className="flex flex-col gap-[50px]  justify-center h-full relative z-40 md:ml-[50px] mx-5">
         <h1 className="lg:text-[78px] text-[48px] font-bold md:leading-[126px] font-grotesque ">
@@ -47,7 +49,7 @@ export default function Hero() {
               </button>
               <button className="cursor-pointer">
                 <Image
-                  src={SocialLogo2}
+                  src={SocialLogo3}
                   width={27}
                   height={27}
                   alt="Social Logo"
@@ -55,7 +57,7 @@ export default function Hero() {
               </button>
             </div>
           </div>
-          <div className="flex gap-[42px] flex-col items-start">
+          <div className="flex gap-[10px] md:gap-[42px] flex-col items-start">
             <p className="text-[#000000] md:text-[18px]">
               Building the worlds best marketing websites for over a decade.{" "}
               <br />
@@ -73,7 +75,7 @@ export default function Hero() {
       <Image
         src={HeroBanner}
         alt="Banner"
-        className="w-full h-full absolute top-0 z-10 object-contain"
+        className="w-full h-full absolute top-0 z-10 object-cover"
       />
     </section>
   );

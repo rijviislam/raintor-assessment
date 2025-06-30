@@ -9,10 +9,9 @@ export default function Home() {
     <>
       <Hero />
       <Skills />
-      <About/>
-      <WorkProcess/>
-        <WorkTogether/>
-    
+      <About />
+      <WorkProcess />
+      <WorkTogether />
     </>
   );
 }

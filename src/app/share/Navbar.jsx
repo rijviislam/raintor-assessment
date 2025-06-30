@@ -3,7 +3,7 @@ import Link from "next/link";
 import NavIcon from "../../../public/assets/nav-icon.svg";
 export default function Navbar() {
   return (
-    <nav className="flex  justify-center w-full h-[114px]">
+    <nav className="flex  justify-center w-full h-[114px] md:h-auto ">
       <div className="flex px-5 md:px-[50px] justify-between items-center py-7 absolute xxl:max-w-[1440px] w-full xxl:gap-[540px] z-50 nav-bg ">
         <h1 className="uppercase text-[#000] font-extrabold text-[34px]">
           devlop.me
